@@ -15,7 +15,7 @@ let q5 = +prompt("O astronauta visitou Netuno? ");
 
 let cont = q1 + q2 + q3 + q4 +q5;
 
-if(cont = 5) {
+if(cont == 5) {
     console.log("\n\tO astronauta triunfou de maneira inquestionável e seus feitos serão lembrados por muitas gerações.\n\t");
 } else if(cont == 4) {
     console.log("\n\tO astronauta, depois de muito esforço, conquistou seu objetivo, embora não de maneira perfeita, porque faltou apenas 1 planeta\n\t");
